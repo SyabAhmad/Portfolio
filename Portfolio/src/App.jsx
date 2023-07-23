@@ -15,10 +15,11 @@ function App() {
         </div>
       </div>
       <div className="hero1">
-        <div className="brightness1">
+        <div className=""></div>
+        <div className="comp1">
           <Hero />
         </div>
-        <div className="brightness2"></div>
+        <div className=""></div>
       </div>
 
       <div className="hero2">
