@@ -1,0 +1,18 @@
+.brightness1 {
+  background-color: #52423b;
+  width: 312px;
+  height: 334px;
+  filter: blur(81.5px);
+  padding: 0px;
+  z-index: 0;
+}
+.brightness2 {
+  background-color: #52423b;
+  width: 156px;
+  height: 178px;
+  flex-shrink: 0;
+  filter: blur(81.5px);
+  margin-top: 150px;
+  margin-left: 260px;
+  z-index: 0;
+}

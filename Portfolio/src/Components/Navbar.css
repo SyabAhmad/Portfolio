@@ -1,0 +1,13 @@
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 20px;
+  padding-inline-start: 40px;
+  align-items: center;
+}
+ul {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+}
