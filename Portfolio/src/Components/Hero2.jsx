@@ -1,5 +1,6 @@
 import React from "react";
 import githubimage from "../assets/github.png";
+import js from "../assets/js.png";
 import "./Hero2.css";
 const Hero2 = () => {
   return (
@@ -32,8 +33,24 @@ const Hero2 = () => {
           </div>
         </div>
         <div className="recent">
-          <div className="details1"></div>
-          <div className="images"></div>
+          <div className="recentimages">
+            <div className="imageLayout">
+              <img src={js} alt="" />
+            </div>
+            <div className="imageLayout">
+              <img src={js} alt="" />
+            </div>
+            <div className="imageLayout">
+              <img src={js} alt="" />
+            </div>
+            <div className="imageLayout">
+              <img src={js} alt="" />
+            </div>
+          </div>
+          <div className="details1">
+            <h3 className="details2">Recent Programming Languages</h3>
+            <h5 className="roleDetails">HTML | CSS | JavaScript | React-JS</h5>
+          </div>
         </div>
       </div>
     </>

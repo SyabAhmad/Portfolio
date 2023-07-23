@@ -1,0 +1,19 @@
+.footerSection {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 50px;
+}
+.footerSection ul {
+  display: inline;
+  list-style-type: disc;
+}
+.footerSection img {
+  width: 50px;
+  padding: 10px;
+  margin-top: 20px;
+}
+.socail {
+  padding: 10px;
+}

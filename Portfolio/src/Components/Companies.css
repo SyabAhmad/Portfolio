@@ -1,0 +1,23 @@
+.recentCompanies {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 100px;
+}
+.recentCompanies .companiesList {
+  display: flex;
+  flex-direction: row;
+  margin-top: 100px;
+}
+
+.recentCompanies .companiesList img {
+  opacity: 0.3;
+}
+.companies {
+  display: flex;
+  flex-direction: row;
+  padding: 20px;
+  gap: 20px;
+  align-items: center;
+}
